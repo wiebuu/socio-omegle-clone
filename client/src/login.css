@@ -1,0 +1,93 @@
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+
+
+  input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 0px;
+    border: 2px solid #00ded7f8;
+    /* Neon cyan border */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent input background */
+    color: #000000;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+    outline: none;
+    border-color: rgba(255, 0, 119, 0.883);
+    /* Neon pink focus border */
+    box-shadow: 0px 0px 10px rgba(255, 0, 224, 0.5);
+}
+label {
+  display: block;
+  color: #00ded7f8;
+  margin-bottom: 8px;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #00ded7f8;
+  /* Neon cyan button */
+  color: black;
+  padding: 12px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: rgba(255, 0, 119, 0.943);
+}
+
